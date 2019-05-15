@@ -69,7 +69,6 @@ public class DriverInit
         try
         {
             driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), cap);
-            Thread.sleep(10000);
         }
         catch (Exception e){}
     }
